@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Kimia SMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Website Belajar Kimia Tingkat SMA</h1>
+        <nav>
+            <a href="#topik">Topik</a>
+            <a href="#animasi">Animasi Eksperimen</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+    </header>
+    
+    <section id="topik">
+        <h2>Topik Utama</h2>
+        <ul>
+            <li><strong>Atom dan Molekul:</strong> Struktur atom, unsur, dan senyawa.</li>
+            <li><strong>Reaksi Kimia:</strong> Jenis reaksi, persamaan kimia.</li>
+            <li><strong>Asam dan Basa:</strong> pH, indikator, netralisasi.</li>
+            <li><strong>Energi dalam Reaksi:</strong> Reaksi eksotermik dan endotermik.</li>
+        </ul>
+        <p>Klik topik untuk belajar lebih lanjut (bisa tambahkan link ke artikel eksternal).</p>
+    </section>
+    
+    <section id="animasi">
+        <h2>Animasi Eksperimen Sederhana</h2>
+        <p>Klik tombol untuk melihat simulasi reaksi asam-basa.</p>
+        <button id="startAnim">Mulai Animasi</button>
+        <div id="animationContainer">
+            <div id="acid">Asam (HCl)</div>
+            <div id="base">Basa (NaOH)</div>
+            <div id="result">Hasil: Garam + Air</div>
+        </div>
+    </section>
+    
+    <section id="quiz">
+        <h2>Quiz Kimia</h2>
+        <div id="quizContainer">
+            <div id="question">Pertanyaan akan muncul di sini.</div>
+            <div id="options"></div>
+            <button id="nextBtn">Jawab</button>
+        </div>
+        <div id="score">Skor: 0/0</div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
